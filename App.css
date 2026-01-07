@@ -1,0 +1,72 @@
+body {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* FORM */
+.form {
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.6);
+}
+
+.form h2 {
+  margin-bottom: 15px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #1d4ed8;
+}
+
+.msg {
+  margin-top: 10px;
+}
+
+/* DASHBOARD */
+.dash-title {
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
